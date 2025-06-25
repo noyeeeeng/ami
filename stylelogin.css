@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family:'Segoe UI', sans-serif ;
+  background: url('makeupp.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+header {
+  background-color: #ffe0e9;
+  padding: 20px 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.brand {
+  text-align: center;
+  font-size: 2.5em;
+  color: #d63384;
+  letter-spacing: 1px;
+}
+
+.brand span {
+  color: #e72b70;
+  font-weight: 700;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #d63384;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ff1493;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  backdrop-filter:none; 
+  background-color:none; 
+}
+
+
+.login-box {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 8px 16px ;
+  width: 320px;
+  text-align: center;
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+  color: #e1417f; 
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fdf9f4;
+}
+
+
+.login-box .checkbox-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.login-box a {
+  color: #eb3c8e;
+  text-decoration: none;
+}
+
+.login-box a:hover {
+  text-decoration: underline;
+}
+
+.login-box button {
+  width: 100%;
+  background-color: #e66395;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+  
+}
+
+.login-box button:hover {
+  background-color: #ec94b0;
+}
+
+
+.login-box .register {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+ footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #efebe9;
+            color: #e24c8d;
+            margin-top: 30px;
+        }
